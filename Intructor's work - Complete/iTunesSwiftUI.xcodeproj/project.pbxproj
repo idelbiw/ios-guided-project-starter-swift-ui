@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46E7494424B80AE900185E4C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E7494324B80AE900185E4C /* SearchView.swift */; };
+		46E7494624B81AA400185E4C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E7494524B81AA400185E4C /* DetailView.swift */; };
 		87C2F8F82460F9AA00D353B9 /* iTunesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C2F8F72460F9AA00D353B9 /* iTunesAPI.swift */; };
 		CF9741CB242FD3B30012D8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9741CA242FD3B30012D8D9 /* AppDelegate.swift */; };
 		CF9741CD242FD3B30012D8D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9741CC242FD3B30012D8D9 /* SceneDelegate.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		46E7494324B80AE900185E4C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		46E7494524B81AA400185E4C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		87C2F8F72460F9AA00D353B9 /* iTunesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesAPI.swift; sourceTree = "<group>"; };
 		87C2F8FA2460FB6800D353B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CF9741C7242FD3B30012D8D9 /* iTunesSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,8 +80,10 @@
 			children = (
 				CF9741CA242FD3B30012D8D9 /* AppDelegate.swift */,
 				CF9741CC242FD3B30012D8D9 /* SceneDelegate.swift */,
+				46E7494324B80AE900185E4C /* SearchView.swift */,
 				CF9741CE242FD3B30012D8D9 /* ContentView.swift */,
 				87C2F8F72460F9AA00D353B9 /* iTunesAPI.swift */,
+				46E7494524B81AA400185E4C /* DetailView.swift */,
 				CF9741D0242FD3B40012D8D9 /* Assets.xcassets */,
 				CF9741D5242FD3B40012D8D9 /* LaunchScreen.storyboard */,
 				CF9741D8242FD3B40012D8D9 /* Info.plist */,
@@ -173,6 +179,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E7494424B80AE900185E4C /* SearchView.swift in Sources */,
+				46E7494624B81AA400185E4C /* DetailView.swift in Sources */,
 				87C2F8F82460F9AA00D353B9 /* iTunesAPI.swift in Sources */,
 				CF9741CB242FD3B30012D8D9 /* AppDelegate.swift in Sources */,
 				CF9741CD242FD3B30012D8D9 /* SceneDelegate.swift in Sources */,
